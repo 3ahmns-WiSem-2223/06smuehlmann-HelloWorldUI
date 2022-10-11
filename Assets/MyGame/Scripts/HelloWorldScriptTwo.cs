@@ -1,19 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class HelloWorldScriptTwo : MonoBehaviour
 {
-    public Button NextButton;
+    public Button nextButton;
     
     void Start()
     {
-        NextButton.onClick.AddListener(press);
+        nextButton.onClick.AddListener(Press);
     }
 
-    public void press()
+    public void Press()
     {
         SceneManager.LoadScene("Scene02");
     }

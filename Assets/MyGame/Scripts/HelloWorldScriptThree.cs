@@ -1,31 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HelloWorldScriptThree : MonoBehaviour
 {
 
-    public int Number;
-    public Text NumberText;
+    public int number;
+    public Text numberText;
 
-    public void plus()
+    public void Plus()
     {
-        Number++;
+        number++;
     }
 
-    public void minus()
+    public void Minus()
     {
-        Number--;
+        number--;
     }
 
-    public void clear()
+    public void Clear()
     {
-        Number = 0;
+        number = 0;
     }
 
     void Update()
     {
-        NumberText.text = Number.ToString();
+        numberText.text = number.ToString();
     }
 }

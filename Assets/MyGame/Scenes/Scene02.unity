@@ -291,7 +291,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 969921597}
         m_TargetAssemblyTypeName: HelloWorldScriptThree, Assembly-CSharp
-        m_MethodName: minus
+        m_MethodName: Minus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -424,7 +424,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 969921597}
         m_TargetAssemblyTypeName: HelloWorldScriptThree, Assembly-CSharp
-        m_MethodName: plus
+        m_MethodName: Plus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -792,8 +792,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fed03da6599a7b4dbd75f86b59a4497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Number: 0
-  NumberText: {fileID: 893930883}
+  number: 0
+  numberText: {fileID: 893930883}
 --- !u!1 &990305925
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,7 +879,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 969921597}
         m_TargetAssemblyTypeName: HelloWorldScriptThree, Assembly-CSharp
-        m_MethodName: clear
+        m_MethodName: Clear
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
